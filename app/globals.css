@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+body {
+    font-family: 'Inter', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
